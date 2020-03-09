@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 const Tab = ({tab,handleClick,idx}) =>{
         const style ={
             backgroundColor: "black",
