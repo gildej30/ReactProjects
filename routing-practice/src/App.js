@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <Router>
         <HomePage path="/home" />
+        <NumberPage path="/:id" />
         <NumberPage path="/:id/:color/:background" />
       </Router>
     </div>

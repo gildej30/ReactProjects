@@ -7,7 +7,7 @@ const NumberPage = props =>{
         color: props.color
     }
 
-    if (isNaN(props.id) == true)
+    if (isNaN(props.id) === true)
     {
     return (
         <div>
